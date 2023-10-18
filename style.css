@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+
+    --fonte-family: 'Bebas Neue', sans-serif;
+    --cor-fundo: #192655;
+    --cor-primaria: #F3F0CA;
+}
+
+body {
+    
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-family);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+}
+  
+header {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__title{
+
+    font-size: 2em;
+    margin: 0.3em;
+    padding: 0.5em;
+    border: 2px solid var(--cor-primaria);
+
+}
+  
+main {
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+h1{
+
+    font-size: 5em;
+    margin: 0;
+
+}
+
+h2{
+
+    font-size: 3em; 
+    margin: 0;
+}
+
+h3{
+
+    font-size: 2em;
+    margin: 20px 0 0 0;
+
+}
+
+.mensagem{
+
+    font-size: 1.5em;
+    margin-top: 40px;
+
+}
+
+.box{
+
+    border: 1px solid var(--cor-primaria);
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 4em;
+
+
+}
+
+.jogar-button{
+
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 1em;
+
+}
+
+a{
+
+    text-decoration: none;
+    text-align: center;
+
+}
